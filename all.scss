@@ -1,0 +1,23 @@
+/*------------------------------------*\
+  $ALL
+\*------------------------------------*/
+/**
+ * ALL............當前檔案（整合所有樣式）
+ * VARIABLES......變數定義（顏色、間距大小）
+ * RESET..........重置瀏覽器預設樣式
+ * BASE...........基本樣式設定
+ * MIXINS.........混合樣式定義
+ * UTILITIES......工具樣式定義
+ * COMPONENTS.....元件樣式定義
+ * LAYOUT.........布局樣式定義
+ * PAGES..........特定頁面樣式定義
+ */
+@import "helpers/variables";
+@import "base/reset";
+@import "base/base";
+@import "mixins/mixins";
+@import "utilities/utilities";
+@import "components/btn";
+@import "layout/backStage";
+@import "layout/footer";
+@import "layout/header";
